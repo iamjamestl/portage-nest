@@ -50,9 +50,6 @@ DEPEND="${RDEPEND}
 S=${WORKDIR}/${MY_P}
 
 src_prepare() {
-	# requires removed package pyechonest, bug #587976
-	rm beetsplug/echonest.py || die
-
 	# remove plugins that do not have appropriate dependencies installed
 	for flag in bpd chroma convert discogs lastgenre mpdstats replaygain web; do
 		if ! use ${flag}; then
