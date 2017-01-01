@@ -19,7 +19,7 @@ RESTRICT="binchecks strip"
 DEPEND=""
 RDEPEND=""
 
-FONT_SUFFIX="otf"
+FONT_SUFFIX="ttf"
 
 src_unpack() {
 	mkdir "${S}" && cd "${S}"
