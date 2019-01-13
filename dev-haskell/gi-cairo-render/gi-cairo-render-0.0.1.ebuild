@@ -25,5 +25,6 @@ RDEPEND=">=dev-haskell/haskell-gi-0.21.1:=[profile?] <dev-haskell/haskell-gi-0.2
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-1.24
+	>=dev-haskell/c2hs-0.28 <dev-haskell/c2hs-0.30
 	virtual/pkgconfig
 "
