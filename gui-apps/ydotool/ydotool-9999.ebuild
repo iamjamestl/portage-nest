@@ -8,7 +8,7 @@ inherit cmake git-r3
 DESCRIPTION="Generic command-line automation tool (no X!)"
 
 HOMEPAGE="https://github.com/ReimuNotMoe/ydotool"
-EGIT_REPO_URI="https://github.com/ReimuNotMoe/${PN}.git"
+EGIT_REPO_URI="https://github.com/iamjamestl/${PN}.git"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
@@ -16,7 +16,8 @@ IUSE=""
 
 RDEPEND="dev-libs/boost
 		dev-libs/libevdevplus
-		dev-libs/libuinputplus"
+		dev-libs/libuinputplus
+		sys-apps/systemd"
 DEPEND="${RDEPEND}"
 
 src_prepare() {
