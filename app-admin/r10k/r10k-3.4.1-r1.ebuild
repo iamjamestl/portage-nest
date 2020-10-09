@@ -3,7 +3,7 @@
 
 EAPI=7
 
-USE_RUBY="ruby24 ruby25 ruby26"
+USE_RUBY="ruby25 ruby26"
 
 RUBY_FAKEGEM_RECIPE_DOC="none"
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
@@ -26,6 +26,7 @@ ruby_add_rdepend "
 	~dev-ruby/cri-2.15.10
 	~dev-ruby/fast_gettext-1.1.2
 	>=dev-ruby/gettext-setup-0.24:0
+	~dev-ruby/ruby-gettext-3.2.9
 	~dev-ruby/log4r-1.1.10
 	>=dev-ruby/multi_json-1.10:0
 	=dev-ruby/puppet_forge-2.3*
